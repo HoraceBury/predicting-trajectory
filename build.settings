@@ -1,0 +1,28 @@
+settings = 
+{
+	orientation = 
+	{
+		default = "landscapeLeft",
+		supported = 
+		{
+			"landscapeLeft", "landscapeRight",
+		},
+	},
+	iphone =
+	{
+		components={},
+		plist =
+			{
+				UIApplicationExitsOnSuspend = true,
+				CFBundleIconFiles = {
+				"AppIcon_ipad",
+				"AppIcon_ipad@2x",
+				"AppIcon_iphone_ipodtouch",
+				"AppIcon_iphone_ipodtouch@2x",
+				"SettingsSearchIcon",
+				"SettingsSearchIcon@2x",
+				"SearchIcon_ipad"
+			},
+		}
+	},
+}
